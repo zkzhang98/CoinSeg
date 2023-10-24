@@ -1,4 +1,4 @@
-This is the implementation of CoinSeg.
+This is the implementation of CoinSeg (ICCV 2023). [Link](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_CoinSeg_Contrast_Inter-_and_Intra-_Class_Representations_for_Incremental_Segmentation_ICCV_2023_paper.pdf).
 
 ## Requirements
 All experiments in this paper are done with following environments:
@@ -45,4 +45,18 @@ We provide a training script `script_train.py` to facilitate the use of our prop
 ```
 If you want to evaluate model after training , add `--test_only`.
 
+## Cite
+If you find our work to be helpful, please consider citing us:
+
+
+```
+@InProceedings{Zhang_2023_ICCV,
+    author    = {Zhang, Zekang and Gao, Guangyu and Jiao, Jianbo and Liu, Chi Harold and Wei, Yunchao},
+    title     = {CoinSeg: Contrast Inter- and Intra- Class Representations for Incremental Segmentation},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {843-853}
+}
+```
 
